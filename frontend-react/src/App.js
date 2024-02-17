@@ -4,9 +4,11 @@ import React from 'react';
 import Navbar from './container/Navbar/Navbar';
 import About from './container/About/About';
 
+import './App.scss';
+
 const App = () => {
     return (
-        <div>
+        <div className="app">
             <Navbar />
             <About />
         </div>
